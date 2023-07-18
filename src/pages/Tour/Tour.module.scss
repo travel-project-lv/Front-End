@@ -1,0 +1,30 @@
+.tour-container{
+    max-width: 1280px;
+    margin: 50px auto;
+}
+.tour-main{
+    display: flex;
+    padding: 10px 0px;
+}
+.filter-container{
+    width: 330px;
+    height: 1000px;
+    background-color: rgb(243, 244, 246);;
+}
+.product-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-container{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding: 24px 0px;
+    h1{
+        color: var(--text-color);
+    }
+}

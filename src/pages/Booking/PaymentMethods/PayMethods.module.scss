@@ -1,0 +1,132 @@
+p{
+    font-weight: 800;
+}
+span{
+    font-weight: 500;
+}
+.content-tour-heading{
+    font-size: 30px;
+    color: var(--text-color);
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.payment-body{
+    display: flex;
+    justify-content: space-between;
+}
+.body-left-payment{
+    height: 900px;
+}
+.info-customer,
+.info-contact,
+.detail-booking,
+.body-right-payment{
+    border: .5px solid #d5d5d5;
+    border-radius: 10px;
+}
+.info-contact{
+    width: 876px;
+    margin-bottom: 24px;
+    padding: 12px 24px;
+}
+.detail-booking{
+    width: 876px;
+    padding: 12px 24px;
+}
+.body-right-payment{
+    width: 400px;
+    padding: 20px;
+}
+.product,
+.heading{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: .5px solid #d5d5d5;
+    h5{
+        color: #fd5056;
+        font-weight: 800;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+}
+.product{
+    padding: 2px 0px 20px;
+}
+.body-info-contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.body-info-text{
+    width: 50%;
+    padding: 12px;
+    span{
+        margin-bottom: 5px;
+        color: #9a9a9a;
+    }
+}
+.body-detail-booking{
+    display: flex;
+}
+.text-detail-booking,
+.label-detail-booking{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 8px;
+    height: 500px;
+}
+.text-detail-booking{
+    p{
+        font-weight: 400!important;
+    }
+}
+.label-detail-booking{
+    margin-right: 30px;
+}
+.detail{
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    margin: 25px 0px;
+}
+.detail-label,
+.detail-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.qr-code{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}
+.info-customer{
+    width: 100%;
+    padding: 12px 24px;
+}
+.payment-methods{
+    display: flex;
+}
+.payment-box{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.payment-text{
+    display: flex;
+    align-items: center;
+    p{
+        margin-left: 8px;
+        margin-bottom: 0px!important;
+    }
+}

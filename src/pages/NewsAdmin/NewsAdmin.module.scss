@@ -1,0 +1,45 @@
+.heading-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 40px 0px;
+    border-radius: 10px;
+    border: 1px solid #d5d5d5;
+    background-color: #a7ccfc;
+    justify-content: space-between;
+    img{
+        height: 100px;
+        width: 350px;
+    }
+    h1{
+        font-size: 28px;
+    }
+}
+.MuiDataGrid-cell, .MuiDataGrid-colCellTitle {
+    font-size: 16px;
+  }
+.store-input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.store-input{
+    margin: 5px 0px;
+    display: flex;
+    width: 250px;
+    align-items: center;
+}
+.label-container{
+    width: 50%;
+}
+.input-container{
+    width: 50%;
+}
+input[type="file"]::-webkit-file-upload-button {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }

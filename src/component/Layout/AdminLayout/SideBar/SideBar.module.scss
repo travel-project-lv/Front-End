@@ -1,0 +1,53 @@
+.Sidebar-container{
+    width: 269px;
+    height: 1500px;
+    // position: fixed;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06) ;
+    padding-right: 30px ;
+    // margin-top: 62px;
+}
+.Sidebar-hello{
+    width: 269px;
+    height: 76px;
+    margin: 0 auto;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+.Sidebar-hello-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 44px;
+    margin-left: 10px;
+}
+.Sidebar-hello-name{
+    color: #777777;
+    font-size: 14px;
+}
+.Sidebar-hello-rule{
+    font-size: 12px;
+    color: #555555;
+    font-weight: 600;
+}
+.Sidebar-dashboard{
+    margin-top: 20px;
+}
+.Sidebar-dashboard-box{
+    span{
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+}
+.Sidebar-dashboard-icon{
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+}
+.router-manage{
+    text-decoration: none;
+    color: #000000;
+}

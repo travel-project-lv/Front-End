@@ -1,0 +1,15 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 1200px;
+}
+.container{
+    display: flex;
+    min-height: 1200px;
+    padding-top: 62px;
+    width: 100%;
+}
+.content{
+    min-width: 1193px;
+    float: right;
+}

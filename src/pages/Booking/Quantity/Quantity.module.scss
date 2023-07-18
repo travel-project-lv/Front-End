@@ -1,0 +1,54 @@
+.quantity-customer-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    margin-bottom: 13px;
+    padding: 10px 15px;
+}
+
+.quantity-customer-number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-quantity{
+    font-size: 25px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.number-quantity{
+    border: none;
+    background: 0 0;
+    width: 30px;
+    text-align: center;
+    font-size: 27px;
+    line-height: 32px;
+    color: #2d4271;
+}
+.input-info{
+    margin-right: 20px!important;
+}
+.customer-form{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.customer-container{
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 10px;
+}
+.heading-form{
+    margin-bottom: 10px;
+    span{
+        margin-right: 134px;
+    }
+    span:last-child{
+        margin-left: 45px;
+        margin-right: 0px;
+    }
+}

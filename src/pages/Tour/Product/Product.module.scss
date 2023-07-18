@@ -1,0 +1,135 @@
+.product-box{
+    width: 921px;
+    height: 356px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin-top: 20px;
+    display: flex;
+    cursor: pointer;
+    box-shadow: #ddd 0px 0px 10px 5px;
+}
+.product-box:hover{
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1);;
+}
+.product-img{
+    // width: 100%;
+    // height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 457px;
+    height: 356px;
+    img{
+        width: 470px;
+        height: 356px;
+        object-fit: cover;
+        border-radius: 16px;
+        margin-left: 14px;
+    }
+}
+.favourite-container{
+    width: 32px;
+    height: 32px;
+    background-color: #0000004D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    color: #ffffff;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+}
+.favourite-container.active{
+    color:red
+}
+.product-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 20px;
+    position: relative;
+    margin-left: 10px;
+    color: var(--text-color)!important;
+}
+.number-seat{
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 10px;
+}
+.container-des-tour{
+    // width: 254px;
+    height: auto;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 10px 0px;
+}
+.des-tour{
+    font-size: 14px;
+    color: var(--text-color);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.name-tour{
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.location-tour-container{
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+.location-tour-icon{
+    margin-right: 10px;
+    stroke: #6b7280;
+}
+
+.price-tour-container{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.price-tour-text{
+    color: var(--red-color);
+    font-weight: 700;
+}
+.discount-container{
+    width: 89px;
+    height: 20px;
+    position: absolute;
+    border-radius: 9999px;
+    background-color: #f97316;
+    top: 22px;
+    left: 22px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fef2f2;
+    font-weight: 600;
+}
+.rating-star{
+    color: #f97316;
+}
+.rating-text{
+    color: var(--text-color);
+    font-weight: 500;
+}
+.rating-number-voted{
+    color: #6b7280;
+}
+.line-product{
+    width: 140px;
+    height: 1px;
+    background-color: var(--text-color);
+    margin-bottom: 20px;
+}

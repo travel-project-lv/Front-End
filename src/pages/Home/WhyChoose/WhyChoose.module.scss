@@ -1,0 +1,40 @@
+.why-choose-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    color: var(--text-color);
+    h2{
+        margin-bottom: 10px;
+    }
+}
+.why-choose-content-icon{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+//Reponsive 
+//Mobile: width < 740px
+@media only screen and (max-width: 739px)
+{
+    .why-choose-content{
+        margin-bottom: 35px;
+        h2{
+            font-size: 20px;
+        }
+    }
+    .why-choose-content-des{
+        display: none;
+    }
+}
+//Tablet: width >= 740px and width < 1024px
+@media only screen and (min-width:740px) and (max-width: 1130px)
+{
+    .why-choose-content{
+        margin-bottom: 35px;
+    }
+}
+//Tablet: width >= 1024px
+@media only screen and (min-width: 1024px)
+{
+
+}

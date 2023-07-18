@@ -1,0 +1,26 @@
+.titile-container{
+    padding: 16px;
+}
+.title-filter{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.filter-main{
+    height: 750px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.tour-filter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    span{
+        margin-bottom: 10px;
+        color: var(--text-color);
+        font-weight: 600;
+    }
+}

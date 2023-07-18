@@ -1,0 +1,54 @@
+.payment-success-container{
+    border: .5px solid #d5d5d5;
+    border-radius: 10px;
+    padding: 30px;
+}
+.heading{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: .5px solid #d5d5d5;
+    h5{
+        font-weight: 800;
+        font-size: 36px;
+        text-transform: uppercase;
+        margin: 16px 0px 10px;
+    }
+}
+.tour-container{
+    height: 170px;
+    border: .5px solid #d5d5d5;
+    border-radius: 10px;
+}
+.body-info-contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+.body-info-text{
+    width: 50%;
+    padding: 12px;
+    span{
+        margin-bottom: 5px;
+        color: #9a9a9a;
+    }
+}
+.body-detail-booking{
+    display: flex;
+}
+.text-detail-booking,
+.label-detail-booking{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 8px;
+    height: 305px;
+}
+.text-detail-booking{
+    p{
+        font-weight: 400!important;
+    }
+}
+.label-detail-booking{
+    margin-right: 30px;
+}
